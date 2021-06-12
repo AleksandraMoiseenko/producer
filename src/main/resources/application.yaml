@@ -1,0 +1,6 @@
+kafka:
+  bootstrapAddress: ${KAFKA_HOST:localhost:9093}
+  group-id: group_id
+  auto-offset-reset: earliest
+  key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
